@@ -29,7 +29,7 @@ export default function SignUp() {
   }
   const steps:any = [
     <AuthStep
-    key-=""
+    key=""
       title="Escribe tu correo" 
       description="Escribe tu correo para poder crearte una cuenta en appdeejemplo :)" 
       inputType="email"
