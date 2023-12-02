@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Geo&family=Ubuntu&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: theme("colors.light.surface.dark");
+  font-family: "Ubuntu", sans-serif;
+}
+
+.ubuntu-font {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.geo-font {
+  font-family: "Geo", sans-serif;
+}
+
+.debug-red {
+  border: 1px solid rgb(255, 0, 0);
+}
+
+.debug-green {
+  border: 1px solid rgb(0, 255, 0);
+}
+
+.debug-blue {
+  border: 1px solid rgb(0, 0, 255);
+}
