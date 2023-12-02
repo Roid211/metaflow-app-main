@@ -11,8 +11,8 @@ export { Container, Text, Button, Input };
 import AuthStep from "./molecules/auth-step";
 import Stepper from "./molecules/stepper";
 import AuthConfirmation from "./molecules/auth-confirmation";
-
-export {AuthStep, Stepper, AuthConfirmation};
+import AuthConfirmation2 from "./molecules/auth-confirmation";
+export {AuthStep, Stepper, AuthConfirmation, AuthConfirmation2};
 
 // LAYOUT
 import MainLayout from "./layout/main";

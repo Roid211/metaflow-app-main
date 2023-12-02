@@ -1,4 +1,4 @@
-import { MainLayout, Stepper, AuthStep, AuthConfirmation } from "@metaflow/components";
+import { MainLayout, Stepper, AuthStep, AuthConfirmation2 } from "@metaflow/components";
 import { useState, useEffect, useContext } from "react";
 import { useRouter } from "next/router";
 import { AuthContext } from "@metaflow/auth";
@@ -43,7 +43,7 @@ export default function Login () {
         onNext={()=>{
         handleLogin(temporaryUser.email, temporaryUser.password);
         }}/>,
-        <AuthConfirmation key=""/>
+        <AuthConfirmation2 key=""/>
 
   ]
 
