@@ -5,7 +5,7 @@ import { AuthContext } from "@metaflow/auth";
 import {FIREBASE_AUTH} from "@metaflow/auth/firebase/config";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
-export default function login () {
+export default function Login () {
     const [activeStep, setActiveStep] = useState(0);
     const router = useRouter();
     const {temporaryUser} = useContext(AuthContext);
@@ -28,14 +28,14 @@ export default function login () {
 
     const steps:any = [
     <AuthStep
-    key-=""
+    key=""
       title="Escribe tu correo" 
       description="Escribe tu correo para ingresar" 
       inputType="email"
       onBack={()=>{router.back()}} 
       onNext={()=>{ setActiveStep(1)}}/>,
       <AuthStep
-      key-=""
+      key=""
         title="Escribe tu contraseña" 
         description="Escribe tu contraseña de prueba" 
         inputType="password"

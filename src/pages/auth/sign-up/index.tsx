@@ -37,7 +37,7 @@ export default function SignUp() {
       onNext={()=>{setActiveStep(1)}}/>,
 
       <AuthStep
-    key-=""
+    key=""
       title="Escribe tu nombre de usuario" 
       description="nombre de usuario mi compa " 
       inputType="text"
@@ -45,7 +45,7 @@ export default function SignUp() {
       onNext={()=>{setActiveStep(2)}}/>,
 
       <AuthStep
-    key-=""
+    key=""
       title="Escribe tu contraseña" 
       description="No escribas tu contraseña real, esto es una prueba" 
       inputType="password"
